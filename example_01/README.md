@@ -3,6 +3,8 @@
 ## To reproduce the error
 
 ```bash
+cd example_01
+
 tofu init -var-file=test.tfvars
 
 tofu test -var-file=test.tfvars
